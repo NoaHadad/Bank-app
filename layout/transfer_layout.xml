@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transferedSUM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="הועבר לחשבון"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="סכום"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/receiveACCOUNT"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/receivedSUM"
+        android:layout_width="57dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/receiveACCOUNT" />
+</android.support.constraint.ConstraintLayout>
